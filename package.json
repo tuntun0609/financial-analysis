@@ -1,0 +1,15 @@
+{
+  "name": "financial-analysis",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "link-agent-skills": "bun run ./scripts/link-agent-skills.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^7"
+  }
+}
