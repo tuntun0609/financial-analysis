@@ -1,7 +1,7 @@
 interface:
-  display_name: "国内公司年报获取"
-  short_description: "自动从官方交易所披露入口或公司官网下载并核验年度报告"
-  default_prompt: "使用 $china-annual-report-fetcher 查找并下载指定国内公司的最新完整年度报告。"
+  display_name: "国内公司定期报告获取"
+  short_description: "从官方披露入口查找、下载并核验年度或半年度报告"
+  default_prompt: "使用 $china-annual-report-fetcher 查找并下载指定公司、指定财政年度的年度报告或半年度报告。"
 
 policy:
   allow_implicit_invocation: true
