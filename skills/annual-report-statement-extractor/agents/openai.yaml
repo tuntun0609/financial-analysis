@@ -1,0 +1,7 @@
+interface:
+  display_name: "年报财务报表提取"
+  short_description: "按模板提取合并报表科目及各期万元数值"
+  default_prompt: "使用 $annual-report-statement-extractor 按内置模板提取指定公司和期间的合并财务报表数据。"
+
+policy:
+  allow_implicit_invocation: true
